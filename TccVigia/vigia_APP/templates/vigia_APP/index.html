@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .imagem {
+            margin-bottom: 5px;
+            border: 5px solid gray;
+        }
+        
+        .imagem_principal {
+            margin-top: 2px;
+            border: 5px solid gray;
+        }
+        
+        .div_imagens {
+            text-align: center-left;
+        }
+        .div_imagensleft {
+            text-align: center;
+        }
+        
+        .div_metrica {
+            border: 1px solid black;
+            margin: 1 0 0 0	;
+            height: 285px;
+        }
+        
+        .titulo_metrica {
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+        .status {
+            border: 0px solid black;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            font-size: 32px;
+        }
+        
+        .metricas {
+            font-size: 11px;
+        }
+        
+        p {
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Div fotos anteriores -->
+    <div class="row">
+        <div class="col-2 div_imagensleft">
+            <h4>Imagens <br>Anteriores</h4>
+            <p>Mais recente</p>
+            {% if primeira_foto %}
+            <img src="{% static 'vigia_fotos/ex1.jpg' %}" class="imagem" alt="penultima_foto" width="70%"> {% else %}
+            <img src="{% static 'vigia_fotos/alternativa.jpg' %}" class="imagem" alt="foto_base" width="70%"> {% endif %} {% if segunda_foto %}
+            <img src="{% static 'vigia_fotos/ex2.jpg' %}" class="imagem" alt="antepenultima_foto" width="70%"> {% else %}
+            <img src="{% static 'vigia_fotos/alternativa.jpg' %}" class="imagem" alt="foto_base" width="70%"> {% endif %} {% if terceira_foto %}
+            <img src="{% static 'vigia_fotos/ex3.jpg' %}" class="imagem" alt="3_foto_anterior_foto" width="70%"> {% else %}
+            <img src="{% static 'vigia_fotos/alternativa.jpg' %}" class="imagem" alt="foto_base" width="70%"> {% endif %} {% if quarta_foto %}
+            <img src="{% static 'vigia_fotos/ex4.jpg' %}" class="imagem" alt="4_foto_anterior_foto" width="70%"> {% else %}
+            <img src="{% static 'vigia_fotos/alternativa.jpg' %}" class="imagem" alt="foto_base" width="70%"> {% endif %} {% if quinta_foto %}
+            <img src="{% static 'vigia_fotos/ex5.jpg' %}" class="imagem" alt="5_foto_anterior_foto" width="70%"> {% else %}
+            <img src="{% static 'vigia_fotos/alternativa.jpg' %}" class="imagem" alt="foto_base" width="70%"> {% endif %}
+        </div>
+
+        <!-- Div foto principal/atual-->
+        <div class="col-6 div_imagens">
+            <h1 align="center">TCC - Sistema de vigilância <br>Última análise</h1>
+            <p>Bom dia <strong>{{nomeVigilante}}</strong></p>
+            <img src="{% static 'vigia_fotos/rosto_atual.jpg' %}" class="imagem_principal" alt="ultima_foto" width="95%">
+        </div>
+
+        <!-- Div alertas-->
+        <div class="col-4">
+            <div class="status">
+                <p>Status: {{status}}</p>
+            </div>
+            <div class="row altura_primeiro">
+                <div class="col-6 div_metrica">
+                    <p class="row titulo_metrica" align="center">Status da última foto</p>
+                    <p><strong>Rosto identificado:</strong> {{face_detectada}}</p>
+                    <p><strong>Posição:</strong> {{orientacao_face}}</p>
+                    <p><strong>Olhos abertos:</strong> {{identificacao_olhos}}</p>
+                    <p><strong>Abertura olho esquerdo:</strong> {{dist_olho_esq}}</p>
+                    <p><strong>Abertura olho direito:</strong> {{dist_olho_dir}}</p>
+                </div>
+                <div class="col-5 div_metrica">
+                    <p class="row titulo_metrica">Alarmes</p>
+                    <p>{{mensagem_alarme}}</p>
+                </div>
+            </div>
+            <div class="row altura_segundo">
+                <div class="col-6 div_metrica">
+                    <p class="row titulo_metrica">Métricas</p>
+                    <p><strong>Alarmes identificados:</strong> {{qtd_alarmes}}</p>
+                    <p><strong>Ausências:</strong> {{qtd_ausencia}}</p>
+                    <p><strong>Analisadas: </strong> {{qtd_nao_monitorando}}</p>
+                </div>
+                <div class="col-5 div_metrica">
+                    <p class="row titulo_metrica">Histórico de situações</p>
+                    <p><strong>Data:</strong> {{horario}}<br><BR> <strong>Análise:</strong> {{situacao}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+    window.setTimeout(function() {
+        location.href = "http://127.0.0.1:8000/";
+    }, 5000); // refresh/redirect after 5 seconds.
+</script>
+
+</html>
