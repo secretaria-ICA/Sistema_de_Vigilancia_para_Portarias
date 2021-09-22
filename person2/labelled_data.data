@@ -1,0 +1,5 @@
+classes = 1
+train = ./person2/train.txt
+valid = ./person2/test.txt
+names = ./person2/classes.names
+backup = backup
