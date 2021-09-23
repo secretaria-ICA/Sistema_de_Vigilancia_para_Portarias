@@ -29,29 +29,37 @@ Project development using computer vision for video/photo analysis to detect gua
 
 Em decorrencia da necessidade de aumentar a segurança dos usuários, surge a necessidade de desenvolver uma solução que oriente e analise o comportamento de vigilantes durante o horário de trabalho, detectando em tempo real através de algoritmos de machine learning cenários como: 
 
-•	Identificação do comportamento em tempo real do vigilante;
-•	Analise da posição do vigilante;
-•	Analise de presença  ou ausência durante o período de trabalho;
-•	Detecção se o vigilante está dormindo ou de posição inadequada;
-•	Apuração do tempo de ausência por parte do vigilante;
-•	Analisar e informar o que foi detectado;
+• Identificação do comportamento em tempo real do vigilante;
+
+• Analise da posição do vigilante;
+
+• Analise de presença  ou ausência durante o período de trabalho;
+
+• Detecção se o vigilante está dormindo ou de posição inadequada;
+
+• Apuração do tempo de ausência por parte do vigilante;
+
+• Analisar e informar o que foi detectado;
 
 ### 2. Modelagem
 
-Para o desenvolvimento do projeto foi feito o uso de rede convolucional (CNN) para analise das imagens e para detecção do comportamento do vigilante foi utilizado tecnologia de analise de detecção de face, através de classes do OpenCV. 
+Para o desenvolvimento do projeto foi utilizado uma rede convolucional (CNN) para detecção de pessoas e uma rede de detecção de faces, com objetivo de vericar se o vigilante está em posição correta ou dormindo.
 
-•	Utilização de rede convolucional (CNN) para analise das imagens - Foi utilizado rede neural YoloV4;
-	o	Envolvendo treinamento de base de dados(imagens/Videos), para detecção de objetos, fazendo a diferenciação de pessoas de animais e outros objetos; 
-	o	Utilizarei base de imagens na Web e/ou google fotos pessoais para treinamento e testes;
-•	Analise detalhada do individuo para verificação do comportamento;
-	o	Foi utilizado algoritmos haar cascade para anlise facial de 68 pontos, para verificação da posição dos olhos e face, detectando cenários se os olhos estão abertos ou fechados;
-•   Foi utilizado base de imagens na Web e/ou google fotos pessoais para treinamento e testes;
-	
-•	Montagem de Dashboard (painel de informações), para visualização das informações.
-•	Utilização de classes e métodos existentes na internet que sejam open-source para desenvolvimento; (será feito na linguagem phyton);
-•	Utilizarei o google colab para desenvolvimento e testes;
-•   Foi utilizado ambiente Django/WEB para execução da aplicação;
-•   Todos as informações e registros do comportamento estão sendo armazenados em base de dados (SQLite) 
+1 - Utilização de rede convolucional (CNN) para analise das imagens, foi utilizado rede neural convolucional YoloV4. Foi feito treinamento do modelo com 2000 imagens diversas e todas mapeadas com pessoas, para distinção de pessoas de animais e outros objetos. 
+
+2 - Analise detalhada do individuo para verificação do comportamento. foi utilizado algoritmo haarcascade para análise facial de 68 pontos, para verificação da posição dos olhos e face, detectando cenários se os olhos estão abertos ou fechados;
+
+3 - Foram utilizados base de imagens na Web e/ou google fotos pessoais para treinamento e testes;
+
+4 - Montagem de Dashboard (painel de informações), para visualização das informações.
+
+5 - Utilização de classes e métodos existentes na internet que sejam open-source para desenvolvimento; (será feito na linguagem phyton);
+
+6 - Utilizarei o google colab para desenvolvimento e testes;
+
+7 - Foi utilizado ambiente Django/WEB para execução da aplicação;
+
+8 - Todos as informações e registros do comportamento estão sendo armazenados em base de dados (SQLite)
 
 Para entendimento do projeto e implementação da solução, foram criados várias rotinas necessárias para o desenvolvimento do sistema de vigilancia.
 Todos foram desenvolvidos em ambiente google colab
