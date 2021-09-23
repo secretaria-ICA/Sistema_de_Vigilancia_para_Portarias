@@ -105,7 +105,7 @@ As caracteristicas acima mencionadas estão representadas no documento em pdf: A
 
 ![image](https://user-images.githubusercontent.com/73618787/134441337-2f181221-ab19-46d1-a4eb-9f0eeb9e0ac2.png)
 
-![image](https://user-images.githubusercontent.com/73618787/134442937-0f9663ae-02ee-46be-89db-98fb9b82bfab.png)
+![image](https://user-images.githubusercontent.com/73618787/134443033-fb03d7af-88f0-4652-af67-6ca9fa0982d8.png)
 
 
 ### 4. Conclusões
