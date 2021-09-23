@@ -105,6 +105,9 @@ As caracteristicas acima mencionadas estão representadas no documento em pdf: A
 
 ![image](https://user-images.githubusercontent.com/73618787/134441337-2f181221-ab19-46d1-a4eb-9f0eeb9e0ac2.png)
 
+![image](https://user-images.githubusercontent.com/73618787/134442937-0f9663ae-02ee-46be-89db-98fb9b82bfab.png)
+
+
 ### 4. Conclusões
 
 Com a utilização deste projeto, estaremos contribuindo para ter uma maior controle e diagnóstico na atuação dos vigilante durante o horário de trabalho, possibilitando assim aumento da segurança do ambiente de trabalho para todos os usuários.
