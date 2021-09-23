@@ -57,13 +57,17 @@ Para entendimento do projeto e implementação da solução, foram criados vári
 Todos foram desenvolvidos em ambiente google colab
 
 • TCC_treino_deteccao_rosto.ipynb - Rotina em python que utiliza rede CNN Convolucional YoloV4 para detecção de imagens, com a geração de uma rede treinada, foram utilizadas 2000 fotos para treinar o modelo com o objetivo de detectar e identificar pessoas;
-• TestaImagensYolo.ipynb - Rotina em python que executa a deteção de fotos, utilizando a rede yolo pré-treinada  pelo  TCC_treino_deteccao_rosto.ipynb  
-• Mapeamento_rosto_68pontos.ipynb - Rotina em python que faz uso da detecção de marcos facias, visando obter a posição da face e a situação dos olhos se estão abertos ou fechados.
+
+• TestaImagensYolo.ipynb - Rotina em python que executa a deteção de fotos, utilizando a rede yolo pré-treinada pelo TCC_treino_deteccao_rosto.ipynb;  
+
+• Mapeamento_rosto_68pontos.ipynb - Rotina em python que faz uso da detecção de marcos facias, visando obter a posição da face e a situação dos olhos se estão abertos ou fechados;
+
 • Detectar_olho.ipynb - Rotina em python que utiliza metódos do OpenCV, como haar cascade para detectar a presenta de faces e posição dos olhos se estão abertos ou fechados
+
+O resultados da execuções dos programas acima estão representados em documentos pdf de mesmo nome, que estão localizados no diretório TCC
 
 Através da utilização dos programas acima, possibilitou o entendimento para o desenvolvimento de aplicação Django/WEB, que encontra-se no diretório TccVigia.
 
-O resultados da execuções dos programas acima estão representados em documentos pdf de mesmo nome, que estão localizados no diretório TCC
 ### 3. Resultados
 
 O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a segurança do prédio, através de vários benefícios relatados abaixo:
