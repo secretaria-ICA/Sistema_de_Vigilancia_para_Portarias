@@ -86,6 +86,9 @@ O Arquivo darknet.zip contém toda a estrutura de objetos e arquivos utilizados 
 
 O diretório haarcascade, contém objetos utilizados para detecção da face e imagens utilizadas nos testes de deteção dos olhos; 
 
+![image](https://user-images.githubusercontent.com/73618787/134442444-ba853ebf-f3a8-437e-813c-774c929e7210.png)
+
+
 ### 3. Resultados
 
 O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a segurança do prédio, através de vários benefícios relatados abaixo:
