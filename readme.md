@@ -63,6 +63,7 @@ Todos foram desenvolvidos em ambiente google colab
 
 Através da utilização dos programas acima, possibilitou o entendimento para o desenvolvimento de aplicação Django/WEB, que encontra-se no diretório TccVigia.
 
+O resultados da execuções dos programas acima estão representados em documentos pdf de mesmo nome, que estão localizados no diretório TCC
 ### 3. Resultados
 
 O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a segurança do prédio, através de vários benefícios relatados abaixo:
@@ -72,7 +73,7 @@ O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a s
 •	Identificação do vigilante através da imagem;
 •	Ambiente de monitoração em tempo real através de dashboard) com  todas as informações do vigilante e imagens históricas.
 
-As caracteristicas acima mencionadas estão representadas no documento Aplicação - TccVigia - aplicação web.pdf
+As caracteristicas acima mencionadas estão representadas no documento em pdf: Aplicação - TccVigia - aplicação web.pdf
 
 
 ### 4. Conclusões
