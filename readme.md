@@ -62,17 +62,17 @@ Para o desenvolvimento do projeto foi utilizado uma rede convolucional (CNN) par
 8 - Todos as informações e registros do comportamento estão sendo armazenados em base de dados (SQLite)
 
 Para entendimento do projeto e implementação da solução, foram criados várias rotinas necessárias para o desenvolvimento do sistema de vigilancia.
-Todos foram desenvolvidos em ambiente google colab
+Todos foram desenvolvidos em ambiente google colab.
 
-• TCC_treino_deteccao_rosto.ipynb - Rotina em python que utiliza rede CNN Convolucional YoloV4 para detecção de imagens, com a geração de uma rede treinada, foram utilizadas 2000 fotos para treinar o modelo com o objetivo de detectar e identificar pessoas;
+•  TCC_treino_deteccao_rosto.ipynb - Rotina em python que utiliza rede CNN Convolucional YoloV4 para detecção de imagens, com a geração de uma rede treinada, foram utilizadas 2000 fotos para treinar o modelo com o objetivo de detectar e identificar pessoas;
 
-• TestaImagensYolo.ipynb - Rotina em python que executa a deteção de fotos, utilizando a rede yolo pré-treinada pelo TCC_treino_deteccao_rosto.ipynb;  
+•  TestaImagensYolo.ipynb - Rotina em python que executa a deteção de fotos, utilizando a rede yolo pré-treinada pelo TCC_treino_deteccao_rosto.ipynb;  
 
-• Mapeamento_rosto_68pontos.ipynb - Rotina em python que faz uso da detecção de marcos facias, visando obter a posição da face e a situação dos olhos se estão abertos ou fechados;
+•  Mapeamento_rosto_68pontos.ipynb - Rotina em python que faz uso da detecção de marcos facias, visando obter a posição da face e a situação dos olhos se estão abertos ou fechados;
 
-• Detectar_olho.ipynb - Rotina em python que utiliza metódos do OpenCV, como haar cascade para detectar a presenta de faces e posição dos olhos se estão abertos ou fechados
+•  Detectar_olho.ipynb - Rotina em python que utiliza metódos do OpenCV, como haar cascade para detectar a presenta de faces e posição dos olhos se estão abertos ou fechados;
 
-O resultados da execuções dos programas acima estão representados em documentos pdf de mesmo nome, que estão localizados no diretório TCC
+O resultados da execuções dos programas acima estão representados em documentos pdf de mesmo nome, que estão localizados no diretório TCC.
 
 ![image](https://user-images.githubusercontent.com/73618787/134441314-b87e9d58-41b2-4c5a-98a5-abc9fc970a0d.png)
 
