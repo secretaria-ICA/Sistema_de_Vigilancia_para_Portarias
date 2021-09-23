@@ -80,6 +80,12 @@ Através da utilização dos programas acima, possibilitou o entendimento para o
 
 ![image](https://user-images.githubusercontent.com/73618787/134441473-eb7b58ad-6518-428b-bbb4-87c31a7410df.png)
 
+O diretório de imagens utilizados no desenvolvimento no projeto foram person2 e FotosPauloAlmeida.
+
+O Arquivo darknet.zip contém toda a estrutura de objetos e arquivos utilizados pelo programa TCC_treino_deteccao_rosto.ipynb;
+
+O diretório haarcascade, contém objetos utilizados para detecção da face e imagens utilizadas nos testes de deteção dos olhos; 
+
 ### 3. Resultados
 
 O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a segurança do prédio, através de vários benefícios relatados abaixo:
