@@ -2,7 +2,7 @@
 # Sistema de Vigilância para Portarias.
 
 #### Aluno: [Paulo Jorge Ramalho de Almeida](https://github.com/paulojrapuc)
-#### Orientadora: [Manoela Kohler](https://github.com/manoelakohler) e [Nome Sobrenome](https://github.com/link_do_github).
+#### Orientadora: [Manoela Kohler](https://github.com/manoelakohler)
 
 ---
 
