@@ -74,19 +74,27 @@ Todos foram desenvolvidos em ambiente google colab
 
 O resultados da execuções dos programas acima estão representados em documentos pdf de mesmo nome, que estão localizados no diretório TCC
 
+![image](https://user-images.githubusercontent.com/73618787/134441314-b87e9d58-41b2-4c5a-98a5-abc9fc970a0d.png)
+
 Através da utilização dos programas acima, possibilitou o entendimento para o desenvolvimento de aplicação Django/WEB, que encontra-se no diretório TccVigia.
+
+![image](https://user-images.githubusercontent.com/73618787/134441473-eb7b58ad-6518-428b-bbb4-87c31a7410df.png)
 
 ### 3. Resultados
 
 O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a segurança do prédio, através de vários benefícios relatados abaixo:
 
 •	Geração de alarmes informativos nos casos de posição inadequada;
+
 •	Registro de histórico com todas as situações analisadas com data e hora;
+
 •	Identificação do vigilante através da imagem;
+
 •	Ambiente de monitoração em tempo real através de dashboard) com  todas as informações do vigilante e imagens históricas.
 
 As caracteristicas acima mencionadas estão representadas no documento em pdf: Aplicação - TccVigia - aplicação web.pdf
 
+![image](https://user-images.githubusercontent.com/73618787/134441337-2f181221-ab19-46d1-a4eb-9f0eeb9e0ac2.png)
 
 ### 4. Conclusões
 
