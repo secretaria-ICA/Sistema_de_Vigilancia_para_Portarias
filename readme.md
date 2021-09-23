@@ -72,6 +72,8 @@ O sistema de vigilância para portarias, visa auxiliar o porteiro aumentando a s
 •	Identificação do vigilante através da imagem;
 •	Ambiente de monitoração em tempo real através de dashboard) com  todas as informações do vigilante e imagens históricas.
 
+As caracteristicas acima mencionadas estão representadas no documento Aplicação - TccVigia - aplicação web.pdf
+
 
 ### 4. Conclusões
 
