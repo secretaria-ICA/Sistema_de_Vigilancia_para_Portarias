@@ -1,4 +1,4 @@
-# Sistema de Vigilância para Portarias.
+# Sistema_de_Vigilância_para_Portarias
 
 #### Aluno: [Paulo Jorge Ramalho de Almeida](https://github.com/paulojrapuc)
 #### Orientadora: [Manoela Kohler](https://github.com/manoelakohler)
