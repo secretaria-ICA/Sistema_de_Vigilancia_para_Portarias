@@ -1,4 +1,3 @@
-<!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 # Sistema de Vigilância para Portarias.
 
 #### Aluno: [Paulo Jorge Ramalho de Almeida](https://github.com/paulojrapuc)
@@ -8,20 +7,15 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-<!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código]((https://github.com/paulojrapuc/TCC). <!-- caso não aplicável, remover esta linha -->
+- [Link para o código](https://github.com/paulojrapuc/TCC). 
 
 ---
 
 ### Resumo
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
-
 Desenvolvimento de projeto utilizando visão computacional para análise de vídeo/foto para detecção de comportamento do vigilante durante o horário de trabalho.
 
-### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
-
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
+### Abstract
 
 Project development using computer vision for video/photo analysis to detect guard behavior during working hours.
 
